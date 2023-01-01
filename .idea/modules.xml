@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/intelligent-spellbook.iml" filepath="$PROJECT_DIR$/intelligent-spellbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intspell-backend/intspell-backend.iml" filepath="$PROJECT_DIR$/intspell-backend/intspell-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intspell-frontend/intspell-frontend.iml" filepath="$PROJECT_DIR$/intspell-frontend/intspell-frontend.iml" />
+    </modules>
+  </component>
+</project>
