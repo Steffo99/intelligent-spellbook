@@ -1,4 +1,4 @@
-use axum::routing::{get, post, put};
+mod routes;
 
 
 #[tokio::main]
@@ -9,7 +9,7 @@ async fn main() {
     log::debug!("Configuring Axum router...");
 
     let webapp = axum::Router::new()
-        // .route("/", get(routes::home::route_home_get))
+        .route("/spell/generate", axum::routing::post(routes::spell_generate::post))
         .layer(tower_http::cors::CorsLayer::new()
             .allow_origin("*".parse::<axum::http::HeaderValue>().expect("* to be a valid origin"))
         );
