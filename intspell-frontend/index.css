@@ -1,0 +1,16 @@
+body {
+    padding: 16px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+.spell {
+    font-family: "Convergence", serif;
+}
+
+.spell :is(h1, h2, h3, h4, h5, h6) {
+    font-family: "Tinos", serif;
+}
