@@ -1,16 +1,29 @@
-body {
+#html body {
     padding: 16px;
 }
 
-main {
+#html main {
     max-width: 800px;
     margin: auto;
 }
 
-.spell {
+#html .spell {
     font-family: "Convergence", serif;
+    font-size: small;
+
+    --bhsl-current-hue: 0deg;
+    --bhsl-current-saturation: 0%;
+    --bhsl-current-lightness: 73%;
+
+    background-color: #222222;
+    border-color: #e69a28;
 }
 
-.spell :is(h1, h2, h3, h4, h5, h6) {
+#html .spell .title {
     font-family: "Tinos", serif;
+    font-variant: small-caps;
+    text-align: left;
+    font-size: 1.8em;
+
+    color: #e69a28;
 }

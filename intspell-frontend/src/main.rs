@@ -1,4 +1,5 @@
 mod app;
+mod macros;
 
 use app::App;
 
